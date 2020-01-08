@@ -14,11 +14,11 @@ struct LocationList: View {
     var body: some View {
         NavigationView {
             List {
-                Toggle(isOn: $userData.showVisitedOnly) {
-                    Text("Show Visiteds Only")
+                Toggle(isOn: $userData.showVisitedOnly){
+                    Text("Visited")
                 }
                 
-                ForEach(userData.Locations) { Location in
+                ForEach(userData.Location) { Location in
                     if !self.userData.showVisitedsOnly || Location.isVisited {
                         NavigationLink(
                             destination: LocationDetail(Location: Location)
