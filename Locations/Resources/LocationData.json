@@ -6,7 +6,7 @@
         "state": "California",
         "id": 1001,
         "isFeatured": true,
-        "isVisited": true,
+        "isVisited": false,
         "park": "Joshua Tree National Park",
         "coordinates": {
             "longitude": -116.166868,
@@ -36,7 +36,7 @@
         "state": "Alaska",
         "id": 1003,
         "isFeatured": false,
-        "isVisited": true,
+        "isVisited": false,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
             "longitude": -135.334571,
@@ -51,7 +51,7 @@
         "state": "Montana",
         "id": 1004,
         "isFeatured": true,
-        "isVisited": true,
+        "isVisited": false,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.536248,

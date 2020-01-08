@@ -20,9 +20,9 @@ struct LocationRow: View {
             Spacer()
             
             if Location.isVisited {
-                Image(systemName: "star.fill")
+                Image(systemName: "flag.fill")
                     .imageScale(.medium)
-                    .foregroundColor(.yellow)
+                    .foregroundColor(.red)
             }
         }
     }

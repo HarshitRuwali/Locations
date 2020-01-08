@@ -15,7 +15,7 @@ struct Location: Hashable, Codable, Identifiable {
     fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
     var city: String
-    var country: String
+    var state: String
     var isVisited: Bool
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(

@@ -37,10 +37,10 @@ struct LocationDetail: View {
                     }) {
                         if self.userData.Location[self.LocationIndex]
                             .isVisited {
-                            Image(systemName: "star.fill")
-                                .foregroundColor(Color.yellow)
+                            Image(systemName: "flag.fill")
+                                .foregroundColor(Color.red)
                         } else {
-                            Image(systemName: "star")
+                            Image(systemName: "flag")
                                 .foregroundColor(Color.gray)
                         }
                     }

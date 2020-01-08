@@ -14,12 +14,13 @@ struct LocationList: View {
     var body: some View {
         NavigationView {
             List {
-                Toggle(isOn: $userData.showVisitedOnly){
-                    Text("Visited")
+                //Toggle("Show visted only", isOn: $userData.showVisitedOnly)
+                Toggle(isOn: $userData.showVisitedOnly)
+                {
+                    Text("Show the visited locations")
                 }
-                
                 ForEach(userData.Location) { Location in
-                    if !self.userData.showVisitedsOnly || Location.isVisited {
+                    if !self.userData.showVisitedOnly || Location.isVisited {
                         NavigationLink(
                             destination: LocationDetail(Location: Location)
                                 .environmentObject(self.userData)
