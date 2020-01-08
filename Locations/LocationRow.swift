@@ -25,9 +25,9 @@ struct LocationRow: View {
                     .foregroundColor(.red)
                 
             if Location.ToVisit{
-                Image(systemName: "flag.fill")
+                Image(systemName: "star.fill")
                     .imageScale(.medium)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.yellow)
                 }
             }
         }
