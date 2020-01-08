@@ -23,6 +23,12 @@ struct LocationRow: View {
                 Image(systemName: "flag.fill")
                     .imageScale(.medium)
                     .foregroundColor(.red)
+                
+            if Location.ToVisit{
+                Image(systemName: "flag.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.blue)
+                }
             }
         }
     }

@@ -19,6 +19,11 @@ struct LocationList: View {
                 {
                     Text("Show the visited locations")
                 }
+                Toggle(isOn: $userData.showToVisitOnly)
+                {
+                    Text("Places to Visit")
+                }
+                
                 ForEach(userData.Location) { Location in
                     if !self.userData.showVisitedOnly || Location.isVisited {
                         NavigationLink(
