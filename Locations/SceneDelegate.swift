@@ -24,6 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(
                 rootView: LocationList()
                     .environmentObject(UserData())
+                    .environmentObject(UserData())
             )
             self.window = window
             window.makeKeyAndVisible()
@@ -59,3 +60,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 }
+
