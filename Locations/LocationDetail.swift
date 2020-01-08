@@ -40,7 +40,7 @@ struct LocationDetail: View {
                             Image(systemName: "flag.fill")
                                 .foregroundColor(Color.red)
                         } else {
-                            Image(systemName: "flag")
+                            Image(systemName: "flag.fill")
                                 .foregroundColor(Color.gray)
                         }
                     }
