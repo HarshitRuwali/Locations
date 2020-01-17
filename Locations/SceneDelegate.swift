@@ -20,16 +20,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Use a UIHostingController as window root view controller
         if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(
-                rootView: LocationList()
-                    .environmentObject(UserData())
-                    .environmentObject(UserData())
-            )
-            self.window = window
-            window.makeKeyAndVisible()
+                let window = UIWindow(windowScene: windowScene)
+                window.rootViewController = UIHostingController(
+                    rootView: LocationList()
+                        .environmentObject(UserData())
+                )
+                self.window = window
+                window.makeKeyAndVisible()
+            }
         }
-    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
