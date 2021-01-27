@@ -13,4 +13,5 @@ import Combine
 final class UserData: ObservableObject{
     @Published var showVisitedOnly = false
     @Published var Location = LocationData
+    @Published var showToVistOnly = false
 }

@@ -16,7 +16,6 @@
 		B55A93C023C544D800D66F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55A93BE23C544D800D66F77 /* LaunchScreen.storyboard */; };
 		B55A93C823C5458C00D66F77 /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55A93C723C5458C00D66F77 /* LocationRow.swift */; };
 		B55A93CA23C5463300D66F77 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55A93C923C5463300D66F77 /* LocationDetail.swift */; };
-		B55A93CC23C5470A00D66F77 /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55A93CB23C5470A00D66F77 /* LocationList.swift */; };
 		B55A93DD23C5475B00D66F77 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55A93CE23C5475B00D66F77 /* charleyrivers.jpg */; };
 		B55A93DE23C5475B00D66F77 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55A93CF23C5475B00D66F77 /* turtlerock.jpg */; };
 		B55A93DF23C5475B00D66F77 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55A93D023C5475B00D66F77 /* silversalmoncreek.jpg */; };
@@ -39,7 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B55A93AD23C544D600D66F77 /* Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55A93AD23C544D600D66F77 /* Travel Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55A93B023C544D600D66F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B55A93B223C544D600D66F77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B55A93B523C544D600D66F77 /* Locations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locations.xcdatamodel; sourceTree = "<group>"; };
@@ -94,7 +93,7 @@
 		B55A93AE23C544D600D66F77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B55A93AD23C544D600D66F77 /* Locations.app */,
+				B55A93AD23C544D600D66F77 /* Travel Guide.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,7 +168,7 @@
 			);
 			name = Locations;
 			productName = Locations;
-			productReference = B55A93AD23C544D600D66F77 /* Locations.app */;
+			productReference = B55A93AD23C544D600D66F77 /* Travel Guide.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +240,6 @@
 				B55A93ED23C5478800D66F77 /* CircleView.swift in Sources */,
 				B55A93B123C544D600D66F77 /* AppDelegate.swift in Sources */,
 				B55A93B623C544D600D66F77 /* Locations.xcdatamodeld in Sources */,
-				B55A93CC23C5470A00D66F77 /* LocationList.swift in Sources */,
 				B55A93C823C5458C00D66F77 /* LocationRow.swift in Sources */,
 				B55A93F323C5486500D66F77 /* UserData.swift in Sources */,
 				B55A93CA23C5463300D66F77 /* LocationDetail.swift in Sources */,
@@ -393,8 +391,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RUWALI.Locations;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUWALI.Travel-Guide";
+				PRODUCT_NAME = "Travel Guide";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -413,8 +411,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RUWALI.Locations;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUWALI.Travel-Guide";
+				PRODUCT_NAME = "Travel Guide";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

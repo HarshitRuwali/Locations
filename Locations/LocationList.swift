@@ -10,15 +10,23 @@ import SwiftUI
 
 struct LocationList: View {
     @EnvironmentObject private var userData: UserData
+    @EnvironmentObject private var userData: UserData
     
     var body: some View {
         NavigationView {
             List {
                 //Toggle("Show visted only", isOn: $userData.showVisitedOnly)
-                Toggle(isOn: $userData.showVisitedOnly)
-                {
-                    Text("Show the visited locations")
+                VStack{
+                    Toggle(isOn: $userData.showVisitedOnly)
+                    {
+                        Text("Show the visited locations")
+                    }
+                    Toggle(isOn: $userData.showToVisitOnly)
+                    {
+                        Text("Places to Visit")
+                    }
                 }
+                
                 ForEach(userData.Location) { Location in
                     if !self.userData.showVisitedOnly || Location.isVisited {
                         NavigationLink(

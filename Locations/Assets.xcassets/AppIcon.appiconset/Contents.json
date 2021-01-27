@@ -31,13 +31,15 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "resize-15785031981477098963Maplocation5a492a4e482c52003601ea25.jpg",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "resize-1578503247384882793Maplocation5a492a4e482c52003601ea25.jpg",
       "scale" : "3x"
     },
     {
@@ -86,8 +88,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "ios-marketing",
       "size" : "1024x1024",
+      "idiom" : "ios-marketing",
+      "filename" : "resize-157850313630699038Maplocation5a492a4e482c52003601ea25.jpg",
       "scale" : "1x"
     }
   ],

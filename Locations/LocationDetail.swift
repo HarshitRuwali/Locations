@@ -40,8 +40,21 @@ struct LocationDetail: View {
                             Image(systemName: "flag.fill")
                                 .foregroundColor(Color.red)
                         } else {
-                            Image(systemName: "flag")
+                            Image(systemName: "flag.fill")
                                 .foregroundColor(Color.gray)
+                        }
+                        Button(action: {
+                            self.userData.Location[self.LocationIndex]
+                                .ToVisit.toggle()
+                        }) {
+                            if self.userData.Location[self.LocationIndex]
+                                .isVisited {
+                                Image(systemName: "flag.fill")
+                                    .foregroundColor(Color.blue)
+                            } else {
+                                Image(systemName: "flag.fill")
+                                    .foregroundColor(Color.gray)
+                            }
                         }
                     }
                 }
