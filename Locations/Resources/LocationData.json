@@ -7,6 +7,7 @@
         "id": 1001,
         "isFeatured": true,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Joshua Tree National Park",
         "coordinates": {
             "longitude": -116.166868,
@@ -22,6 +23,7 @@
         "id": 1002,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -152.665167,
@@ -37,6 +39,7 @@
         "id": 1003,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
             "longitude": -135.334571,
@@ -52,6 +55,7 @@
         "id": 1004,
         "isFeatured": true,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.536248,
@@ -67,6 +71,7 @@
         "id": 1005,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -153.849883,
@@ -82,6 +87,7 @@
         "id": 1006,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.934831,
@@ -97,6 +103,7 @@
         "id": 1007,
         "isFeatured": true,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Charley Rivers National Preserve",
         "coordinates": {
             "longitude": -143.122586,
@@ -112,6 +119,7 @@
         "id": 1008,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Wrangell-St. Elias National Park and Preserve",
         "coordinates": {
             "longitude": -141.518167,
@@ -127,6 +135,7 @@
         "id": 1009,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "State Recreation Area",
         "coordinates": {
             "longitude": -150.086103,
@@ -142,6 +151,7 @@
         "id": 1010,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "North Cascades National Park",
         "coordinates": {
             "longitude": -121.17799,
@@ -157,6 +167,7 @@
         "id": 1011,
         "isFeatured": false,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Chincoteague National Wildlife Refuge",
         "coordinates": {
             "longitude": -75.383212,
@@ -172,6 +183,7 @@
         "id": 1012,
         "isFeatured": true,
         "isVisited": false,
+        "ToVisit":false,
         "park": "Umbagog National Wildlife Refuge",
         "coordinates": {
             "longitude": -71.056816,

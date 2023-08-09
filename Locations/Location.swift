@@ -17,6 +17,7 @@ struct Location: Hashable, Codable, Identifiable {
     var city: String
     var state: String
     var isVisited: Bool
+    var ToVisit : Bool
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
